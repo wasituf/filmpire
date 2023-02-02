@@ -12,6 +12,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     semi: 0,
+    'jsx-quotes': 0,
     'import/no-cycle': 0,
     'no-console': 0,
     'react/prop-types': 0,
