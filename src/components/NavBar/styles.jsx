@@ -2,7 +2,7 @@ import { makeStyles } from 'tss-react/mui'
 
 const drawerWidth = '240px'
 
-const useStyles = makeStyles()((theme) => ({
+const useStyles = makeStyles()(theme => ({
   toolbar: {
     height: '80px',
     display: 'flex',

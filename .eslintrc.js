@@ -13,6 +13,10 @@ module.exports = {
   rules: {
     semi: 0,
     'jsx-quotes': 0,
+    'arrow-parens': 0,
+    camelcase: 0,
+    'implicit-arrow-linebreak': 0,
+    'operator-linebreak': 0,
     'import/no-cycle': 0,
     'no-console': 0,
     'react/prop-types': 0,

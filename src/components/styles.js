@@ -4,6 +4,7 @@ const useStyles = makeStyles()({
   root: {
     display: 'flex',
     height: '100%',
+    maxWidth: '100% !important',
   },
   toolbar: {
     height: '70px',
@@ -11,6 +12,7 @@ const useStyles = makeStyles()({
   content: {
     flexGrow: 1,
     padding: '2em',
+    width: '100%',
   },
 })
 
